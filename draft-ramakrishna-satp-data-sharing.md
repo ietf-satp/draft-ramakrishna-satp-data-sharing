@@ -110,8 +110,8 @@ informative:
     - ins: A. Lipton
     - ins: A. Pentland
     date: June 2019
-    target: https://doi:10.1109/TEM.2019.2920154
-    title: Towards and Interoperability Architecture for Blockchain Autonomous Systems, IEEE Transactions on Engineering Management
+    target: https://ieeexplore.ieee.org/document/8743548
+    title: Towards an Interoperability Architecture for Blockchain Autonomous Systems, IEEE Transactions on Engineering Management
   HS2019:
     author:
     - ins: T. Hardjono
@@ -122,10 +122,9 @@ informative:
   IDevID:
     author:
     - ins: M. Richardson
-    - ins: J. Yang
-    date: August 2020
-    target: https://tools.ietf.org/html/draft-richardson-t2trg-idevid-considerations-01
-    title: A Taxonomy of operational security of manufacturer installed keys and anchors. IETF draft-richardson-t2trg-idevid-considerations-01
+    date: August 2025
+    target: https://datatracker.ietf.org/doc/draft-irtf-t2trg-taxonomy-manufacturer-anchors/
+    title: A Taxonomy of operational security considerations for manufacturer installed keys and Trust Anchors. IETF draft-irtf-t2trg-taxonomy-manufacturer-anchors-11
   SRC84:
     author:
     - ins: J. Saltzer
@@ -140,8 +139,8 @@ informative:
     - ins: B. Chandra Ghosh
     - ins: E. Abebe
     date: August 2022
-    target: https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/main/rfcs/models/identity/network-identity-management.md
-    title: 'Decentralized Network-Identity Discovery and Management for Interoperation, Hyperledger Labs, Weaver: DLT Interoperability, RFC 01-011'
+    target: https://github.com/hyperledger-cacti/cacti/blob/main/weaver/rfcs/models/identity/network-identity-management.md
+    title: 'Decentralized Network-Identity Discovery and Management for Interoperation, Hyperledger Cacti - Weaver, RFC 01-011, LFDT'
 
 normative:
   DID:
@@ -152,21 +151,21 @@ normative:
     - ins: D. Reed
     - ins: O. Steele
     - ins: C. Allen
-    date: July 2022
-    target: https://w3c.github.io/did-core/
-    title: Decentralized Identifiers (DIDs) v1.0, W3C Recommendation
+    date: September 2025
+    target: https://w3c.github.io/did/
+    title: Decentralized Identifiers (DIDs) v1.1, Core architecture, data model, and representations (W3C Candidate Recommendation Snapshot)
   FATF:
     author:
     - ins: FATF
     date: October 2018
     target: http://www.fatf-gafi.org/publications/fatfrecommendations/documents/fatf-recommendations.html
-    title: 'International Standards on Combating Money Laundering and the Financing of Terrorism and Proliferation - FATF Revision of Recommendation 15'
+    title: 'International Standards on Combating Money Laundering and the Financing of Terrorism & Proliferation - The FATF Recommendations'
   ISO:
     author:
     - ins: ISO
-    date: July 2020
-    target: https://www.iso.org
-    title: Blockchain and distributed ledger technologies-Vocabulary (ISO:22739:2020)
+    date: January 2024
+    target: https://www.iso.org/standard/82208.html
+    title: Blockchain and distributed ledger technologies-Vocabulary (ISO:22739:2024)
   NIST:
     author:
     - ins: D. Yaga
@@ -183,25 +182,27 @@ normative:
     - ins: M. Hargreaves
     - ins: N. Smith
     - ins: V. Ramakrishna
-    date: January 2025
+    date: July 2025
     target: https://datatracker.ietf.org/doc/draft-ietf-satp-architecture/
-    title: Secure Asset Transfer (SAT) Interoperability Architecture, IETF, draft-ietf-satp-architecture-06
+    title: Secure Asset Transfer (SAT) Interoperability Architecture, IETF, draft-ietf-satp-architecture-08
   SATP:
     author:
     - ins: M. Hargreaves
     - ins: T. Hardjono
     - ins: R. Belchior
     - ins: V. Ramakrishna
-    date: January 2025
+    - ins: A. Chiriac
+    date: August 2025
     target: https://datatracker.ietf.org/doc/draft-ietf-satp-core/
-    title: Secure Asset Transfer Protocol (SATP) Core, IETF, draft-ietf-satp-core-08
+    title: Secure Asset Transfer Protocol (SATP) Core, IETF, draft-ietf-satp-core-11
   SATU:
     author:
     - ins: V. Ramakrishna
     - ins: T. Hardjono
-    date: January 2025
+    - ins: C. Liu
+    date: July 2025
     target: https://datatracker.ietf.org/doc/draft-ietf-satp-usecases/
-    title: Secure Asset Transfer (SAT) Use Cases, IETF, draft-ietf-satp-usecases-04
+    title: Secure Asset Transfer (SAT) Use Cases, IETF, draft-ietf-satp-usecases-06
   SATV:
     author:
     - ins: V. Ramakrishna
@@ -209,9 +210,9 @@ normative:
     - ins: E. Abebe
     - ins: S. Nishad
     - ins: K. Narayanam
-    date: January 2025
+    date: September 2025
     target: https://datatracker.ietf.org/doc/draft-ramakrishna-satp-views-addresses/
-    title: Views and View Addresses for Secure Asset Transfer, IETF, draft-ramakrishna-satp-views-addresses-04
+    title: Views and View Addresses for Secure Asset Transfer, IETF, draft-ramakrishna-satp-views-addresses-06
   SSI:
     author:
     - ins: A. Tobin
@@ -224,9 +225,10 @@ normative:
     - ins: M. Sporny
     - ins: D. Longley
     - ins: D. Chadwick
-    date: August 2022
+    - ins: I. Herman
+    date: May 2025
     target: https://w3c.github.io/vc-data-model/
-    title: Verifiable Credentials Data Model v2.0, W3C Editor’s Draft
+    title: Verifiable Credentials Data Model v2.1 (W3C Editor’s Draft)
 
 
 --- abstract
@@ -251,7 +253,7 @@ The purpose of this document is to provide a technical framework to discuss the 
 
 {: #terminology-doc}
 
-There following are some terminologies used in the current document:
+The following are some terminology used in the current document:
 
 - Blockchain system: Blockchains are distributed digital ledgers of cryptographically signed transactions that are grouped into blocks. Each block is cryptographically linked to the previous one (making it tamper evident) after validation and undergoing a consensus decision. As new blocks are added, older blocks become more difficult to modify (creating tamper resistance). New blocks are replicated across copies of the ledger within the network, and any conflicts are resolved automatically using established rules {{NIST}}.
 
@@ -307,7 +309,7 @@ There following are some terminologies used in the current document:
 
 - Access/exposure policy: Set of rules governing the release of a view to an external party (i.e., outside the source system), held in consensus by nodes on the source system's ledger.
 
-- Verification policy: Rules for validation of proofs associated with views maintained in a destination system. If the destination system is a blockchain or DLT system, these rules are held in consensus by nodes on the that system's ledger.
+- Verification policy: Rules for validation of proofs associated with views maintained in a destination system. If the destination system is a blockchain or DLT system, these rules are held in consensus by nodes on that system's ledger.
 
 - View Request: A request for a made by an external party to a source blockchain or DLT system. The external party may be a client in a destination blockchain or DLT system. The request consists of a view address and various metadata, including optionally a verification policy.
 
@@ -335,9 +337,9 @@ The protocol must not involve any centralized intermediaries or trusted third pa
 
 The following conditions are assumed to have occurred prior to the construction of a view request:
 
-- Syncing remote system structure, memberships, and identities: see Section 10 for details.
-- Recording view access control policies in the source ledger: see Section 10 for details.
-- Recording view verification policies in the destination ledger: see Section 10 for details.
+- Syncing remote system structure, memberships, and identities: see Section 5 for details.
+- Recording view access control policies in the source ledger: see Section 5 for details.
+- Recording view verification policies in the destination ledger: see Section 5 for details.
 
 # Interoperability and Data Sharing Among Distributed Ledger Systems
 
@@ -481,7 +483,7 @@ The desirable properties of a data sharing protocol include, but are not limited
 - Decoupling gateways from systems: the protocol should not rely on a specific implementation of a gateway or a cross-gateway communication protocol, nor should the protocol be restricted to a particular pair of view generation-validation processes in the respective systems. Different components and even systems can be replaced without requiring modifications to the high-level protocol semantics.
 - Technology-neutral cross-gateway communication: the cross-gateway communication protocol, e.g., SATP {{SATP}}, should be oblivious to the nature and implementation of the endpoint systems. As a corollary, the protocol units internal to the system should also be oblivious to the cross-gateway discovery and communication mechanisms.
 - Trust through native consensus: end-to-end trust should be realized by implementing the view generation and validation procedures the same way as any distributed consensus-driven operation in the respective systems. This respects the native decision-making processes in those systems and enables multi-party groups backing those systems to interact with each other as units.
-- Minimize trust in gateways: the integrity of the protocol should not be dependent on the reliability of either gateway. The next sub section elaborates on the desired security properties.
+- Minimize trust in gateways: the integrity of the protocol should not be dependent on the reliability of either gateway. The next subsection elaborates on the desired security properties.
 - Preserving system autonomy and self-sovereignty: the endpoint systems should have complete freedom in determining their respective access controls and verification policies, and in choosing when to initiate a view request or whether to respond to a view request. The internal activities of each system should be oblivious to the other and should not affect data sharing protocol instance.
 - Accommodating heterogeneity: the end-to-end protocol should work the same regardless of the distributed ledger technology implementation backing either endpoint system.
 - Avoid synchronization: the protocol should not rely on any externally guided synchronization mechanism, such as a global clock, and instead rely purely on asynchronous message transfers.
@@ -514,8 +516,8 @@ The usual considerations of fault tolerance, crashes, and session maintenance, a
 
 Either endpoint system in a data sharing protocol instance must have the following configured in their respective data stores, which, if the system is a distributed ledger system, should be a shared ledger.
 
-- View request access control policies: as described in Section 8, one or more access control policy rules according to the given specification should be recorded before a data sharing protocol instance. If a view request is received by a system and there is no appropriate policy rule in the system’s record, the principle of least privilege should be applied, and the view request rejected.
-- View verification policies: as described in Section 6, one or more verification policies according to the given specification should be recorded before a data sharing protocol instance. If a view is received by a system and there is no appropriate policy rule in the system’s record, the view should be deemed invalid. The client itself ought to avoid sending a view request if an appropriate verification policy cannot be retrieved, but even if a malicious client proceeds with a spurious view request, the destination system’s back end should declare the proof accompanying the view response to be invalid.
+- View request access control policies: as described in Section 8 in the Views and View Addresses draft {{SATV}}, one or more access control policy rules according to the given specification should be recorded before a data sharing protocol instance. If a view request is received by a system and there is no appropriate policy rule in the system’s record, the principle of least privilege should be applied, and the view request rejected.
+- View verification policies: as described in Section 6 in the Views and View Addresses draft {{SATV}}, one or more verification policies according to the given specification should be recorded before a data sharing protocol instance. If a view is received by a system and there is no appropriate policy rule in the system’s record, the view should be deemed invalid. The client itself ought to avoid sending a view request if an appropriate verification policy cannot be retrieved, but even if a malicious client proceeds with a spurious view request, the destination system’s back end should declare the proof accompanying the view response to be invalid.
 - External identities and certifications: participating systems can be abstracted into one or more security domains that represent the stakeholders of that system. For effective policy enforcement, i.e., to authenticate a view request or validate a view, knowledge of a remote system’s security domains—identity providers, certification authorities, and group structure if the system is a distributed ledger—is necessary. This information is typically, though not limited to, a set of certificate hierarchies, which should be determined and recorded to the system’s data store before a data sharing protocol instance. In the absence of such recorded information about the counterparty system, the protocol should terminate in the view request access control check step or in the view validation step.
 
 # Related Open Issues
@@ -546,7 +548,7 @@ How gateways can discover other gateways acting on behalf of remote distributed 
 
 {: #open-issues-id-mgmt}
 
-Mechanisms are required to continuously sync external identities and certifications as described in Section 10 as a basis for data sharing. To keep these mechanisms are decentralized as possible and leverage existing identity registries, we can leverage the concepts of decentralized identifiers {{DID}} and verifiable credentials {{VC22}}. Protocols for this purpose, which use DID registries and trust anchors, have been proposed {{WRFCDID}}, and we can use them as starting points for this specification.
+Mechanisms are required to continuously sync external identities and certifications as described in Section 5 as a basis for data sharing. To keep these mechanisms are decentralized as possible and leverage existing identity registries, we can leverage the concepts of decentralized identifiers {{DID}} and verifiable credentials {{VC22}}. Protocols for this purpose, which use DID registries and trust anchors, have been proposed {{WRFCDID}}, and we can use them as starting points for this specification.
 
 
 --- back
