@@ -1,0 +1,83 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2025-09-16T01:14:42.124310+00:00",
+  "repo": "ietf-satp/draft-ramakrishna-satp-data-sharing",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOKAka986oqALP",
+      "title": "Checked in previous drafts until v03 and an updated version",
+      "url": "https://github.com/ietf-satp/draft-ramakrishna-satp-data-sharing/pull/1",
+      "state": "MERGED",
+      "author": "VRamakrishna",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-09-15T14:49:13Z",
+      "updatedAt": "2025-09-15T14:49:44Z",
+      "baseRepository": "ietf-satp/draft-ramakrishna-satp-data-sharing",
+      "baseRefName": "main",
+      "baseRefOid": "d640cb7afe70621cae54aa74615bac58d148516e",
+      "headRepository": "VRamakrishna/draft-ramakrishna-satp-data-sharing",
+      "headRefName": "main",
+      "headRefOid": "599a3324175c54d8953963a59f79d5ca5e5369f8",
+      "closedAt": "2025-09-15T14:49:44Z",
+      "mergedAt": "2025-09-15T14:49:44Z",
+      "mergedBy": "VRamakrishna",
+      "mergeCommit": {
+        "oid": "3bf630ca7049b7a82cd482674c64b07e148f7454"
+      },
+      "comments": [],
+      "reviews": []
+    }
+  ]
+}
