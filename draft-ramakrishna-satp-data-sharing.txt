@@ -5,12 +5,12 @@
 Secure Asset Transfer Protocol                            V. Ramakrishna
 Internet-Draft                                                 V. Pandit
 Intended status: Informational                              IBM Research
-Expires: 19 March 2026                                          E. Abebe
+Expires: 19 September 2026                                      E. Abebe
                                                                Consensys
                                                                S. Nishad
                                                        D. Vinayagamurthy
                                                             IBM Research
-                                                       15 September 2025
+                                                           18 March 2026
 
 
        Protocol for Requesting and Sharing Views across Networks
@@ -70,11 +70,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 19 March 2026.
+   This Internet-Draft will expire on 19 September 2026.
 
 Copyright Notice
 
-   Copyright (c) 2025 IETF Trust and the persons identified as the
+   Copyright (c) 2026 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -820,13 +820,13 @@ Table of Contents
 
    [SATA]     Hardjono, T., Hargreaves, M., Smith, N., and V.
               Ramakrishna, "Secure Asset Transfer (SAT) Interoperability
-              Architecture, IETF, draft-ietf-satp-architecture-08", July
-              2025, <https://datatracker.ietf.org/doc/draft-ietf-satp-
-              architecture/>.
+              Architecture, IETF, draft-ietf-satp-architecture-09",
+              February 2026, <https://datatracker.ietf.org/doc/draft-
+              ietf-satp-architecture/>.
 
    [SATP]     Hargreaves, M., Hardjono, T., Belchior, R., Ramakrishna,
               V., and A. Chiriac, "Secure Asset Transfer Protocol (SATP)
-              Core, IETF, draft-ietf-satp-core-11", August 2025,
+              Core, IETF, draft-ietf-satp-core-13", March 2026,
               <https://datatracker.ietf.org/doc/draft-ietf-satp-core/>.
 
    [SATU]     Ramakrishna, V., Hardjono, T., and C. Liu, "Secure Asset
@@ -837,8 +837,8 @@ Table of Contents
    [SATV]     Ramakrishna, V., Pandit, V., Abebe, E., Nishad, S., and K.
               Narayanam, "Views and View Addresses for Secure Asset
               Transfer, IETF, draft-ramakrishna-satp-views-addresses-
-              06", September 2025, <https://datatracker.ietf.org/doc/
-              draft-ramakrishna-satp-views-addresses/>.
+              07", March 2026, <https://datatracker.ietf.org/doc/draft-
+              ramakrishna-satp-views-addresses/>.
 
    [SSI]      Tobin, A. and D. Reed, "The Inevitable Rise of Self-
               Sovereign Identity, A white paper from the Sovrin
