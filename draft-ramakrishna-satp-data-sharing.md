@@ -182,9 +182,9 @@ normative:
     - ins: M. Hargreaves
     - ins: N. Smith
     - ins: V. Ramakrishna
-    date: July 2025
+    date: February 2026
     target: https://datatracker.ietf.org/doc/draft-ietf-satp-architecture/
-    title: Secure Asset Transfer (SAT) Interoperability Architecture, IETF, draft-ietf-satp-architecture-08
+    title: Secure Asset Transfer (SAT) Interoperability Architecture, IETF, draft-ietf-satp-architecture-09
   SATP:
     author:
     - ins: M. Hargreaves
@@ -192,9 +192,9 @@ normative:
     - ins: R. Belchior
     - ins: V. Ramakrishna
     - ins: A. Chiriac
-    date: August 2025
+    date: March 2026
     target: https://datatracker.ietf.org/doc/draft-ietf-satp-core/
-    title: Secure Asset Transfer Protocol (SATP) Core, IETF, draft-ietf-satp-core-11
+    title: Secure Asset Transfer Protocol (SATP) Core, IETF, draft-ietf-satp-core-13
   SATU:
     author:
     - ins: V. Ramakrishna
@@ -210,9 +210,9 @@ normative:
     - ins: E. Abebe
     - ins: S. Nishad
     - ins: K. Narayanam
-    date: September 2025
+    date: March 2026
     target: https://datatracker.ietf.org/doc/draft-ramakrishna-satp-views-addresses/
-    title: Views and View Addresses for Secure Asset Transfer, IETF, draft-ramakrishna-satp-views-addresses-06
+    title: Views and View Addresses for Secure Asset Transfer, IETF, draft-ramakrishna-satp-views-addresses-07
   SSI:
     author:
     - ins: A. Tobin
