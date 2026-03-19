@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-03-17T01:58:38.117351+00:00",
+  "timestamp": "2026-03-19T02:03:33.100161+00:00",
   "repo": "ietf-satp/draft-ramakrishna-satp-data-sharing",
   "labels": [
     {
@@ -75,6 +75,34 @@
       "mergedBy": "VRamakrishna",
       "mergeCommit": {
         "oid": "3bf630ca7049b7a82cd482674c64b07e148f7454"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 2,
+      "id": "PR_kwDOKAka987Ln_9l",
+      "title": "Updated references for new draft version",
+      "url": "https://github.com/ietf-satp/draft-ramakrishna-satp-data-sharing/pull/2",
+      "state": "MERGED",
+      "author": "VRamakrishna",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2026-03-18T18:02:56Z",
+      "updatedAt": "2026-03-18T18:03:46Z",
+      "baseRepository": "ietf-satp/draft-ramakrishna-satp-data-sharing",
+      "baseRefName": "main",
+      "baseRefOid": "3bf630ca7049b7a82cd482674c64b07e148f7454",
+      "headRepository": "VRamakrishna/draft-ramakrishna-satp-data-sharing",
+      "headRefName": "main",
+      "headRefOid": "902e414693b51c233896c3233c7ca102aad1be24",
+      "closedAt": "2026-03-18T18:03:46Z",
+      "mergedAt": "2026-03-18T18:03:46Z",
+      "mergedBy": "VRamakrishna",
+      "mergeCommit": {
+        "oid": "40ebb6a7e45a78246691bf35962c19c53f3f5fbd"
       },
       "comments": [],
       "reviews": []
