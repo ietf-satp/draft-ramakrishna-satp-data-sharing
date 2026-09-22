@@ -45,13 +45,13 @@ author:
   -
     ins: V. Pandit
     name: Vinayaka Pandit
-    organization: IBM Research
-    email: pvinayak@in.ibm.com
+    organization: IBM Research (Retired)
+    email: vinayaka.pandit@gmail.com
   -
     ins: E. Abebe
     name: Ermyas Abebe
-    organization: Consensys
-    email: ermyas.abebe@consensys.net
+    organization: Immutable
+    email: ermyasteshome@gmail.com
   -
     ins: S. Nishad
     name: Sandeep Nishad
@@ -182,9 +182,9 @@ normative:
     - ins: M. Hargreaves
     - ins: N. Smith
     - ins: V. Ramakrishna
-    date: February 2026
+    date: September 2026
     target: https://datatracker.ietf.org/doc/draft-ietf-satp-architecture/
-    title: Secure Asset Transfer (SAT) Interoperability Architecture, IETF, draft-ietf-satp-architecture-09
+    title: Secure Asset Transfer (SAT) Interoperability Architecture, IETF, draft-ietf-satp-architecture-10
   SATP:
     author:
     - ins: M. Hargreaves
@@ -192,17 +192,17 @@ normative:
     - ins: R. Belchior
     - ins: V. Ramakrishna
     - ins: A. Chiriac
-    date: March 2026
+    date: September 2026
     target: https://datatracker.ietf.org/doc/draft-ietf-satp-core/
-    title: Secure Asset Transfer Protocol (SATP) Core, IETF, draft-ietf-satp-core-13
+    title: Secure Asset Transfer Protocol (SATP) Core, IETF, draft-ietf-satp-core-16
   SATU:
     author:
     - ins: V. Ramakrishna
     - ins: T. Hardjono
     - ins: C. Liu
-    date: July 2025
+    date: September 2026
     target: https://datatracker.ietf.org/doc/draft-ietf-satp-usecases/
-    title: Secure Asset Transfer (SAT) Use Cases, IETF, draft-ietf-satp-usecases-06
+    title: Secure Asset Transfer (SAT) Use Cases, IETF, draft-ietf-satp-usecases-10
   SATV:
     author:
     - ins: V. Ramakrishna
@@ -210,9 +210,9 @@ normative:
     - ins: E. Abebe
     - ins: S. Nishad
     - ins: K. Narayanam
-    date: March 2026
+    date: September 2026
     target: https://datatracker.ietf.org/doc/draft-ramakrishna-satp-views-addresses/
-    title: Views and View Addresses for Secure Asset Transfer, IETF, draft-ramakrishna-satp-views-addresses-07
+    title: Views and View Addresses for Secure Asset Transfer, IETF, draft-ramakrishna-satp-views-addresses-08
   SSI:
     author:
     - ins: A. Tobin
