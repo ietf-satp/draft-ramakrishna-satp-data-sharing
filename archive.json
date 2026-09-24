@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-09-22T03:17:34.192519+00:00",
+  "timestamp": "2026-09-24T03:07:45.105678+00:00",
   "repo": "ietf-satp/draft-ramakrishna-satp-data-sharing",
   "labels": [
     {
@@ -103,6 +103,34 @@
       "mergedBy": "VRamakrishna",
       "mergeCommit": {
         "oid": "40ebb6a7e45a78246691bf35962c19c53f3f5fbd"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOKAka988AAAABEjWfGw",
+      "title": "Updated author affiliations and references",
+      "url": "https://github.com/ietf-satp/draft-ramakrishna-satp-data-sharing/pull/3",
+      "state": "MERGED",
+      "author": "VRamakrishna",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2026-09-22T09:26:39Z",
+      "updatedAt": "2026-09-22T09:27:21Z",
+      "baseRepository": "ietf-satp/draft-ramakrishna-satp-data-sharing",
+      "baseRefName": "main",
+      "baseRefOid": "40ebb6a7e45a78246691bf35962c19c53f3f5fbd",
+      "headRepository": "VRamakrishna/draft-ramakrishna-satp-data-sharing",
+      "headRefName": "main",
+      "headRefOid": "deaa6600c4b6daafa7514f006844ebe1f6c45a39",
+      "closedAt": "2026-09-22T09:27:21Z",
+      "mergedAt": "2026-09-22T09:27:21Z",
+      "mergedBy": "VRamakrishna",
+      "mergeCommit": {
+        "oid": "d94671a77ac4839134e51667fded8dadb5d15492"
       },
       "comments": [],
       "reviews": []
